@@ -5,7 +5,7 @@ console.log(width.height);
 function encrypt(e) {
 	let msg = e.target.value;
 	console.log(msg);
-	let chars = "²&é\"'(-è_çà)=azertyuiop^$qsdfghjklmù*wxcvbn,;:!1234567890°+AZERTYUIOP¨£QSDFGHJKLM%µWXCVBN?./§<>~#{[|`^@]}€¤ \\ê";
+	let chars = "²&é\"'(-è_çà)=azertyuiop^$qsdfghjklmù*wxcvbn,;:!1234567890°+AZERTYUIOP¨£QSDFGHJKLM%µWXCVBN?./§<>~#{[|`@]}€¤ \\êï";
 	let code = ""
 	
 	for (let i=0;i<msg.length;i++) {
